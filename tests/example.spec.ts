@@ -6,5 +6,6 @@ test('@CASE_1', async ({ page }) => {
 
 
 test('@CASE_2', async ({ page }) => {
-    console.log("Code from feat branch - case 2");
+  expect(1).toEqual(2);
+  console.log("Code from feat branch - case 2");
 });
